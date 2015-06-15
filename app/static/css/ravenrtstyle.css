@@ -1,0 +1,215 @@
+
+/* Default: mobile devices < 768px */
+
+/* Top header */
+.rrt-top {
+    position: relative;
+    height: 200px;
+}
+.rrt-top-image {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/rrt-top-photo.jpg");
+}
+.rrt-top-logo {
+    width: 300px;
+    padding-top: 130px;
+}
+
+
+/* content style */
+.rrt-line {
+    border-top: 1px solid grey;
+    margin-bottom: 15px;
+}
+.rrt-text {
+    font-size: 16px;
+}
+.rrt-text-h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rrt-text-h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rrt-text-h2-next {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+/* team */
+.rrt-text-h1-team {
+    font-size: 18px;
+    font-weight: bold;
+}
+.rrt-text-h2-team {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.rrt-team-photo {
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    box-shadow: 4px 4px 2px #888888;
+    width: 150px;
+}
+.rrt-linkedin {
+    height: 18px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+}
+.rrt-1np-logo {
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 4px 4px 2px #888888;
+    border: 1px solid darkgrey;
+}
+.rrt-registratie-logo {
+    float: left;
+    width: 120px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 4px 4px 2px #888888;
+}
+.rrt-link-logo, .rrt-link-logo-lg {
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 4px 4px 2px #888888;
+    border: 1px solid darkgrey;
+}
+.rrt-link-logo-lg {
+    width: 150px;
+}
+
+#map-canvas {
+    height: 300px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .rrt-top {
+        position: relative;
+        height: 300px;
+    }
+    .rrt-top-image {
+        background-image: url("../images/rrt-top-photo.jpg");
+    }
+    .rrt-top-logo {
+        width: 95%;
+        padding-top: 180px;
+        padding-left: 10px;
+    }
+    .rrt-text-align {
+        padding-left: 15px;
+    }
+    .rrt-team-photo {
+        margin-left: 14px;
+    }
+    .rrt-1np-logo {
+        margin-left: 14px;
+    }
+    .rrt-line-align {
+        margin-left: 15px;
+    }
+    .rrt-registratie-logo {
+        margin-left: 14px;
+    }
+    .rrt-link-logo, .rrt-link-logo-lg {
+        margin-left: 14px;
+    }
+    #map-canvas {
+        height: 300px;
+        width: 500px;
+        margin-left: 14px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .rrt-top-logo {
+        width: 83%;
+        padding-top: 170px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .rrt-top-logo {
+        width: 83%;
+        padding-top: 160px;
+    }
+}
+
+
+
+
+/* navbar */
+.navbar-default {
+    background-color: white;
+    border-color: white;
+}
+/* brand */
+.navbar-default .navbar-brand {
+    color: #F0810F;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* links */
+.navbar-default .navbar-nav > li > a {
+    color: #2f2f2f;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #959595;
+}
+/* active link */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #959595;
+    background-color: white;
+}
+/* toggle */
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+
+/* glyphicon */
+.glyphicon {
+    color: #2f2f2f;
+}
+.navbar-default .glyphicon:hover,
+.navbar-default .glyphicon:focus {
+    color: #959595;
+}

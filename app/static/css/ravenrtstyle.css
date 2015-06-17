@@ -30,6 +30,10 @@
 .rrt-text {
     font-size: 16px;
 }
+.rrt-text-sm {
+    font-size: 14px;
+    font-weight: normal;
+}
 .rrt-text-h1 {
     font-size: 18px;
     font-weight: bold;
@@ -45,6 +49,9 @@
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 4px;
+}
+.rrt-link {
+    color: saddlebrown;
 }
 
 /* team */

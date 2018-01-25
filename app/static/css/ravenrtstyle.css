@@ -15,7 +15,7 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/rrt-top-photo.jpg");
+    background-image: url("../images/rtt-top-photo-2.jpg");
 }
 .rrt-top-logo {
     width: 300px;
@@ -125,7 +125,7 @@
         height: 300px;
     }
     .rrt-top-image {
-        background-image: url("../images/rrt-top-photo.jpg");
+        background-image: url("../images/rtt-top-photo-2.jpg");
     }
     .rrt-top-logo {
         width: 95%;

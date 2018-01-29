@@ -15,7 +15,7 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/rtt-top-photo-2.jpg");
+    background-image: url("../images/rtt-top-photo-short.jpg");
 }
 .rrt-top-logo {
     width: 300px;
@@ -116,6 +116,12 @@
     margin-top: 8px;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .rrt-top-image {
+        background-image: url("../images/rtt-top-photo-2.jpg");
+    }
+}
 
 
 /* Small devices (tablets, 768px and up) */

@@ -60,6 +60,20 @@
     color: cornflowerblue;
 }
 
+.rrt-footer {
+    background-color: #204d74;
+    color: white;
+    margin-top: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rrt-doc-link {
+    color: white;
+}
+.rrt-doc-link:hover {
+    color: white;
+}
+
 /* team */
 .rrt-text-h1-team {
     font-size: 18px;
@@ -178,8 +192,6 @@
         padding-top: 160px;
     }
 }
-
-
 
 
 /* navbar */
